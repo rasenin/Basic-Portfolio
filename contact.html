@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -11,27 +12,32 @@
     <div class="container">
 
         <div class="top">
-            <header>
-                <h1>Roman Senin</h1>
-            </header>
+            <div class="menu">
+                <header>
+                    <h1>Roman Senin</h1>
+                </header>
 
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+                <nav>
+                    <a id="nav1" href="index.html">About</a><span class="bar">|</span>
+                    <a id="nav2" href="portfolio.html">Portfolio</a><span class="bar">|</span>
+                    <a id="nav3" href="contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Name</p>
-            <input type="text" name="name"><br>
-            <p>Email</p>
-            <input type="text" name="email"><br>
-            <p>Message</p>
-            <textarea rows="4" cols="50"></textarea><br>
-            <button type="button">Submit</button>
-        </section>
+        <div class="content">
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Name</p>
+                <input type="text" name="name"><br>
+                <p>Email</p>
+                <input type="text" name="email"><br>
+                <p>Message</p>
+                <textarea rows="10" cols="50"></textarea><br>
+                <input id="submit" type="button" value="Submit">
+            </section>
+        </div>
+
         <footer>
             Copyright &copy;
         </footer>
