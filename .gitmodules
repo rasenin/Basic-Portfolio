@@ -1,3 +1,3 @@
 [submodule "Word-Guess-Game"]
 	path = Word-Guess-Game
-	url = git@github.com:rasenin/Word-Guess-Game.git
+	url = https://github.com/rasenin/Word-Guess-Game.git
