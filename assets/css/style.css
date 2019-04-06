@@ -157,8 +157,9 @@ h2 {
   position: relative;
   float: left;
   width: 274px;
+  height: 285px;
   margin: 20px 0 25px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #main-container a:nth-child(even) {
