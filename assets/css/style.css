@@ -116,7 +116,6 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 75px;
 }
 
 h3,
@@ -129,8 +128,18 @@ h2 {
 
 /* main */
 
-#main-container {
-  min-height: calc(100vh - 100px);
+.page-content {
+  min-height: 100%;
+  margin-bottom: -75px;
+}
+
+.page-content::after {
+  content: "";
+  display: block;
+}
+
+footer, .page-content::after {
+  height: 75px;
 }
 
 .main-section {
@@ -168,7 +177,6 @@ h2 {
 #main-container a:nth-child(even) {
   margin-right: 40px;
 }
-
 
 .work img {
   width: 100%;
