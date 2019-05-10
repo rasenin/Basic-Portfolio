@@ -1,3 +1,3 @@
 # My Portfolio
 
-(this link)[https://rasenin.github.io/]
+[this link](https://rasenin.github.io/)
