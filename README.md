@@ -1,3 +1,3 @@
 # My Portfolio
 
-My personal [portfolio](https://rasenin.github.io/).
+An old [portfolio](https://romansenin.github.io/) I worked on in bootcamp.
